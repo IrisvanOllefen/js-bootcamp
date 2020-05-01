@@ -99,15 +99,9 @@ It's best to use `const` as much as possible. It helps error prevention and than
 When you know that you will need to change a value, use `let`. But, only if you know that what you want to do can not be done with `const`, like in a for loop.
 
 #### Exercises I've made using this information:
-[freeCodeCamp Basic JavaScript]()
-[JavaScript30 Array Cardio]()
-[freeeCodeCamp Functional Programming]()
+[freeCodeCamp]()
 [nodeSchool Workshopper]()
 
 #### Sources for the information I've used for this story:
-[Eloquent JavaScript](https://eloquentjavascript.net/00_intro.html).     
-[ECMAScript Guide](https://flaviocopes.com/ecmascript/_).     
-[MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/JavaScript#General_JavaScript_guidelines).     
-[ECMAScript explained by Techopedia](https://www.techopedia.com/definition/14291/ecmascript).     
-[freeCodeCamp about ECMAScript](https://www.freecodecamp.org/news/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5/).     
-
+[Fun Fun Function](https://www.youtube.com/watch?v=sjyJBL5fkp8)
+[Eloquent JavaScript](https://eloquentjavascript.net/01_values.html)
