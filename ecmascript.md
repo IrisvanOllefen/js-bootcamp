@@ -54,8 +54,8 @@ There are quite some rules about how JavaScript should be used. Even though the 
 * And of course, make sure code is consise, readable, leave comments where needed and make sure you keep it clear for other people besides yourself.
 
 #### Sources for the information I've used for this story:
-[Eloquent JavaScript]:https://eloquentjavascript.net/00_intro.html
-[ECMAScript Guide]: https://flaviocopes.com/ecmascript/
-[MDN JavaScript Guide]: https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/JavaScript#General_JavaScript_guidelines
-[ECMAScript explained by Techopedia]: https://www.techopedia.com/definition/14291/ecmascript
-[freeCodeCamp about ECMAScript]: https://www.freecodecamp.org/news/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5/
+[Eloquent JavaScript](https://eloquentjavascript.net/00_intro.html)
+[ECMAScript Guide](https://flaviocopes.com/ecmascript/_)
+[MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/JavaScript#General_JavaScript_guidelines)
+[ECMAScript explained by Techopedia](https://www.techopedia.com/definition/14291/ecmascript)
+[freeCodeCamp about ECMAScript](https://www.freecodecamp.org/news/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5/)
