@@ -99,9 +99,9 @@ It's best to use `const` as much as possible. It helps error prevention and than
 When you know that you will need to change a value, use `let`. But, only if you know that what you want to do can not be done with `const`, like in a for loop.
 
 #### Exercises I've made using this information:
-[freeCodeCamp]()
+[freeCodeCamp]()                    
 [nodeSchool Workshopper]()
 
 #### Sources for the information I've used for this story:
-[Fun Fun Function](https://www.youtube.com/watch?v=sjyJBL5fkp8)
+[Fun Fun Function](https://www.youtube.com/watch?v=sjyJBL5fkp8)                    
 [Eloquent JavaScript](https://eloquentjavascript.net/01_values.html)
