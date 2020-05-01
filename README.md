@@ -6,3 +6,6 @@
 * [Functions and Higher-Order Functions](https://github.com/IrisvanOllefen/js-bootcamp/blob/master/3-functions.md)
 * [Data Structures like Arrays, Objects and some more string properties and functions](https://github.com/IrisvanOllefen/js-bootcamp/blob/master/4-data-structures.md)
 * [Concepts like binding and scope, global scope, hoisting and closures](https://github.com/IrisvanOllefen/js-bootcamp/blob/master/5-concepts.md)
+
+## I also did exercises
+You can go to the map [here](fwiofnewo)
