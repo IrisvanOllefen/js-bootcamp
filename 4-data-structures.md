@@ -241,8 +241,8 @@ console.log(difference(3, 5));
 [freeCodeCamp - Basic JavaScript](https://www.freecodecamp.org/learn)
 
 #### Sources for the information I've used for this story:
-[The Coding Train - What is an array?](https://www.youtube.com/watch?v=VIQoUghHSxU)
-[Eloquent JavaScript - Data Structures](https://eloquentjavascript.net/04_data.html)
+[The Coding Train - What is an array?](https://www.youtube.com/watch?v=VIQoUghHSxU)                    
+[Eloquent JavaScript - Data Structures](https://eloquentjavascript.net/04_data.html)                    
 [Eloquent JavaScript - Objects](https://eloquentjavascript.net/06_object.html)
 
 
