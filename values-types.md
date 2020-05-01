@@ -16,7 +16,7 @@ There are also arithmetic operations such as addition or multiplication. This me
 The + and * are those types of operators and can be easily used.          
 ```javascript
 const numberOne = 1;        
-const NumberTwo = 2;        
+const numberTwo = 2;        
 console.log(numberOne + numberTwo)
 ```
 
@@ -73,6 +73,7 @@ console.log(true ? 1 : 2)
 // --> 1
 console.log((false ? 1 : 2)
 // --> 2
+```
 The value on the left of the question mark picks which of the other two values will come out. If it is true, it chooses the middle value, if it is false, it will choose the value on the right.
 
 ### Empty Values
