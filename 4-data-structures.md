@@ -173,10 +173,41 @@ console.log(max(...numbers));
 ### The Math Object
 As we've seen, Math is a grab bag of number-related utility functions.
 #### Math.max
+``` javascript
+console.log(Math.max(1, 3, 2));
+// expected output: 3
+```
 #### Math.min
+``` javascript
+console.log(Math.min(2, 3, 1));
+// expected output: 1
+```
 #### Math.sqrt
+``` javascript
+function calcHypotenuse(a, b) {
+  return(Math.sqrt((a * a) + (b * b)));
+}
+
+console.log(calcHypotenuse(3, 4));
+// expected output: 5
+```
 #### Trigonometry
 If you need to do trigonometry, Math can help. It contains cos, sin and tan. As well as their inversice functions, acos, asin and atan, respectively. The number π (pi) is available as Math.PI.
+``` javascript
+function getTanFromDegrees(degrees) {
+  return Math.tan(degrees * Math.PI/180);
+}
+
+console.log(getTanFromDegrees(0));
+// expected output: 0
+// Calculates angle of a right-angle triangle in radians
+function calcAngle(opposite, adjacent) {
+  return Math.atan(opposite / adjacent);
+}
+
+console.log(calcAngle(8, 10));
+// expected output: 0.6747409422235527
+```
 #### Math.floor and Math.random
 If we want a whole random number instead of a fractional one, we can use Math.floor (which rounds down to the nearest whole number) on the result of Math.random
 ``` javascript
@@ -185,12 +216,34 @@ console.log(Math.floor(Math.random() * 10));
 ```
 #### Math.ceil
 Ceil stands for "ceiling", and rounds up to a whole number.
+``` javascript
+console.log(Math.ceil(.95));
+// expected output: 1
+```
 #### Math.round
 This one rouds up to the nearest whole number.
+``` javascript
+console.log(Math.round(0.9));
+// expected output: 1
+```
 #### Math.abs
 Takes the absolute value of a number, meaning it negates negative valies but leaves positive ones as they are.
+``` javascript
+function difference(a, b) {
+  return Math.abs(a - b);
+}
 
+console.log(difference(3, 5));
+// expected output: 2
+```
 
+### Exercises I've made with this information:
+[freeCodeCamp - Basic JavaScript](https://www.freecodecamp.org/learn)
+
+#### Sources for the information I've used for this story:
+[The Coding Train - What is an array?](https://www.youtube.com/watch?v=VIQoUghHSxU)
+[Eloquent JavaScript - Data Structures](https://eloquentjavascript.net/04_data.html)
+[Eloquent JavaScript - Objects](https://eloquentjavascript.net/06_object.html)
 
 
 
