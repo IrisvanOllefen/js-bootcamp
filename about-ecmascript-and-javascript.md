@@ -49,8 +49,8 @@ Another way that JavaScript is usedoutside of the browser, is in Node.js. This u
 There are quite some rules about how JavaScript should be used. Even though the syntax is a lot, I think it's important to notea few of the most important ones:
 * Ever since ES6 was published, it's always better to use common ES6 features like arrow functions, promises, let & const, template literals and spread syntax. This often works better than older ES5 solutions.
 * Use lowerCamelCasing for naming variables, and try to always use const if the value will not be reassigned. It it will, use let.
-* Use strict equality, so instead of (==), use (===) and instead of (!=), use (!==).
-* Use template literals like the following line: (`Hi! I'm ${myName}!`)
+* Use strict equality, so instead of `==`, use `===` and instead of `!=`, use `!==`.
+* Use template literals like the following line: `(`Hi! I'm ${myName}!`)`
 * And of course, make sure code is consise, readable, leave comments where needed and make sure you keep it clear for other people besides yourself.
 
 #### Sources for the information I've used for this story:
