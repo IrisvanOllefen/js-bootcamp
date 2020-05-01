@@ -59,16 +59,16 @@ EJ
 EJ
 
 #### Exercises I've made using this information:
-[freeCodeCamp Basic JavaScript]()
-[JavaScript30 Array Cardio]()
-[freeeCodeCamp Functional Programming]()
-[nodeSchool Workshopper]()
+[freeCodeCamp Basic JavaScript]()                   
+[JavaScript30 Array Cardio]()                   
+[freeeCodeCamp Functional Programming]()                   
+[nodeSchool Workshopper]()                   
 
 #### Sources for the information I've used for this story:
-[The Coding Train - Functions](https://www.youtube.com/watch?v=wRHAitGzBrg)
-[Eloquent JavaScript](https://eloquentjavascript.net/03_functions.html)
-[The Coding Train - Higher Order Functions](https://www.youtube.com/watch?v=H4awPsyugS0)
-[Eloquent JavaScript](https://eloquentjavascript.net/05_higher_order.html)
+[The Coding Train - Functions](https://www.youtube.com/watch?v=wRHAitGzBrg)                   
+[Eloquent JavaScript](https://eloquentjavascript.net/03_functions.html)                   
+[The Coding Train - Higher Order Functions](https://www.youtube.com/watch?v=H4awPsyugS0)                   
+[Eloquent JavaScript](https://eloquentjavascript.net/05_higher_order.html)                   
 
 
 
