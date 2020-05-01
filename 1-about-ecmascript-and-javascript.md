@@ -53,10 +53,6 @@ There are quite some rules about how JavaScript should be used. Even though the 
 * Use template literals like the following line: `(`Hi! I'm ${myName}!`)`
 * And of course, make sure code is consise, readable, leave comments where needed and make sure you keep it clear for other people besides yourself.
 
-#### Exercises I've made using this information:
-[freeCodeCamp]()
-[nodeSchool Workshopper]
-
 #### Sources for the information I've used for this story:
 [Eloquent JavaScript](https://eloquentjavascript.net/00_intro.html).     
 [ECMAScript Guide](https://flaviocopes.com/ecmascript/_).     
