@@ -259,7 +259,7 @@ console.log(difference(3, 5));
 ```
 
 ### Exercises I've made with this information:
-[freeCodeCamp - Basic JavaScript](https://www.freecodecamp.org/learn)
+[freeCodeCamp - Basic JavaScript](https://github.com/IrisvanOllefen/js-bootcamp/blob/master/exercises/exercises-day3/3.1_freeCodeCamp_BasicJS.md)
 
 #### Sources for the information I've used for this story:
 [The Coding Train - What is an array?](https://www.youtube.com/watch?v=VIQoUghHSxU)                    
