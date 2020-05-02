@@ -3,24 +3,39 @@
 ## Arrays
 
 ### What is an Array?
-An array is a list of values, seperated by comma's, imbedded by square brackets. It kind of looks like an object with a collection of values. An order of the array is very important. It has an index and this gives a number to all the items inside the array. So the first item in the array is `index[0]`. 
+An array is a list of values, seperated by comma's, imbedded by square brackets. Just like an object, it contains a collection of values. An array has an index, which is important because it gives a number to all the items inside the array. This means the first item in the array is `index[0]`. 
 
 ### Why Would You Use an Array?
-You can use the numbers out of an array, and use them in other parts of your code. This is why it is so important that the array has an index, so you can call them apart from each other. You can put literally anything in an array.
+There are multiple reasons why you can, would or should use an array, and if I'd list them all, it will probably be quite the list. But, a few good ideas are the following:
+* You can use the numbers out of your array, and then use those in other parts of your code. This is why it is so convenient that an array has an index.
+* If an object is not the right pick for what data you want to store, an array is also a very good way to store data inside of your code. An example is when you need to get the information from out of the array in other pieces in your code, like the above point. Using index makes this quite easy.
 
 ### Properties
-Almost all JavaScript values have properties. The exceptions are null and undefined. If you try to access a property on one of these nonvalues, you get an error. 
-The two main ways to access properties in JavaScript are with a dot and with square brackets. Both `value.x` and `value[x]` access a property on value—but not necessarily the same property. The difference is in how x is interpreted. When using a dot, the word after the dot is the literal name of the property. When using square brackets, the expression between the brackets is evaluated to get the property name. 
-The length property of an array tells us how many elements it has.
+Almost all JavaScript values have properties. The exceptions are the properties `null` and `undefined`. If you try to access these values, you will get an error.
+There are two ways that you can access properties in JavaScript. The first one is with a dot like `value.x` and the other one uses square brackets like so `value[x]`.
+There is a difference between these two. It is all about how the 'x' in this case is interpreted. If you use a dot, the word after the dot is the literal name that belongs to the property. If you instead use square brackets, the expression that is put between the brackets is evaluated to get you the property name.
+Another property is the `array.length` property, which tells us how many elements are in an array.
 
 ### Methods
 
 #### Push method
 The push method adds values to the end of an array
+``` javascript 
+const animals = ['pigs', 'goats', 'sheep'];
+const count = animals.psuh('cows');
+console.log(animals);
+// --> animals ['pigs', 'goats', 'sheep', 'cows']
+```
 #### Pop method
 The pop method removes the last value in the array and returns it.
+``` javascript
+const plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+console.log(plants.pop());
+console.log(plants);
+// --> plants ['broccoli', 'cauliflower', 'cabbage', 'kale']
+```
 #### Shift and unshift
-We saw push and pop, which add and remove elements at the end of an array. The corresponing methods for adding and removing things at the start of an array are called unshift and shift.
+We saw push and pop, which add and remove elements at the end of an array. The corresponding methods for adding and removing things at the start of an array are called unshift and shift.
 ``` javascript
 function getTask() {
 	return todoList.shift();
@@ -29,8 +44,8 @@ function rememberUrgently(task) {
 	todoList.unshift(task);
 }
 ```
-#### lastIndexOf
-To search from the end instead of the start, there's a similar method called lastIndexOf.
+#### indexOf and lastIndexOf
+If you want to know what the index number of an element in an array is, you can use `indexOf` and give the element you're looking for. Similarly, if you know one value comes back multiple times, and you want the last one, do the same but just put `lastIndexOf` instead of `indexOf`.
 ``` javascript
 console.log([1, 2, 3, 3, 1].indexOf(2));
 	// --> 1
@@ -38,7 +53,7 @@ console.log([1, 2, 3, 2, 1].lastIndexOf(2));
 	// --> 3
 ```
 #### Slice
-Another fundamental array method is slice, which takes start and end indices and returns an array that has only the elements between them. The start index is inclusive, the end index is exclusive.
+Another array method is slice, which takes start and end indices and returns an array that has only the elements between them. The start index will still be in the array, the end index will be left out.
 ```javascript
 console.log([0, 1, 2, 3, 4].slice(2, 4));
 	// --> [2, 3]
@@ -48,17 +63,18 @@ console.log([0, 1, 2, 3, 4].slice(2));
 #### The Concat Method
 The concat method can be used to glue arrays together to create a new array, similar to what the + operator does for strings.
 ``` javascript
-function remove(array, index) {
-	return array.slice(0, index)
-		.concat(array.sloce(index + 1));
+function add (list, bookName) {
+  var newBookList = list.concat([])
+  newBookList.push(bookName);
+  return newBookList;
+  
+  // Change code above this line
 }
-console.log(remove(["a", "b", "c", "d", "e"], 2));
-	// --> ["a", "b", "d", "e"]
 ```
 If you pass concat an argument that is not an array, that value will be added to the new array as if it were a one-element array.
 
 ### Array Loops
-A for loop is common in classical JavaScript—going over arrays one element at a time is something that comes up a lot. There is a simpler way to write such loops in modern JavaScript:
+A for loop is common in classical JavaScript. It works simple, it goes over arrays one element at a time. But, there is a simpler way to write such loops in modern JavaScript:
 ``` javascript
 for (let entry of JOURNAL) {
 	console.log(`${entry.events.length} events.`);
@@ -68,13 +84,18 @@ for (let entry of JOURNAL) {
 ## Objects
 
 ### The Basic Explanation
-Values of the type object are arbitrary collections of properties. One way to create an object is by using braces as an expression. Braces have two meanings in JavaScript. At the start of a statement, they start a block of statements. At any other position, they describe an object. You may think of objects as octopuses with any number of tentacles, each of which has a name tattooed on it. The delete operator cuts off a tentacle from such an octopus. To find out what properties an object has, you can use the `Object.keys` function. Though no one really agrees on its precise definition, object-oriented programming has shaped the design of many programming languages, including Javascript.
+Values of the type object are arbitrary collections of properties. One way to create an object is by using braces as an expression. There are two meanings for braces in JavaScript. 
+* At the start of a statement, they start a block of statements. 
+* At any other position, they describe an object. 
+Marijn Haverbeke from Eloquent JavaScript gave a good explanation of objects: "You may think of objects as octopuses with any number of tentacles, each of which has a name tattooed on it. The delete operator cuts off a tentacle from such an octopus."
+If you want to know what properties an object has, use the`Object.keys` function.
 
 ### Methods
-Methods are nothing more than properties that hold function values. When a function is called as a method, the binding called this in its body automatically points at the object that it was called on. 
+Methods are nothing more than properties that hold function values. When a function is called as a method, the binding called `this` in its body automatically points at the object that it was called on. 
 
 ### Mutability
-We saw that object values can be modified. The types of values discussed earlier, like numbers, strings, and Booleans, are all immutable—it is impossible to change values of those types. With objects, there is a difference between having two references to the same object and having two different objects that contain the properties.
+We saw that object values can be modified. The values I described in an earlier chapter, like numbers, strings, and Booleans, are all immutable which makes it impossible to change the value of those types. 
+But with objects, there is a difference between having two references to the same object and having two different objects that contain the properties.
 
 ### Prototypes
 In addition to their set of properties, most objects also have a prototype. A prototype is another object that is used as a fallback source of properties. `Object.getPrototypeOf` returns the prototype of an object. You can use `Object.create` to create an object with a specific prototype.
