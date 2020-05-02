@@ -8,4 +8,4 @@
 * [Concepts like binding and scope, global scope, hoisting and closures](https://github.com/IrisvanOllefen/js-bootcamp/blob/master/5-concepts.md)
 
 ## I also did exercises
-You can go to the map [here](fwiofnewo)
+You can go to the map [here](https://github.com/IrisvanOllefen/js-bootcamp/tree/master/exercises)
