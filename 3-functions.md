@@ -115,9 +115,10 @@ You can use JavaScript's charCodeAt method. this gives you a code unit, but not 
 The `countBy` function expects a collection (anything that we can loop over with for/or) and a function that computes a group name for a given element. What is does is returning an array of objects, each of which names a group and then tells you how many elements they found in that group. It also works with another array method with is named `findIndex`.
 
 #### Exercises I've made using this information:
-[freeCodeCamp Basic JavaScript]()                   
-[JavaScript30 Array Cardio]()                   
-[freeeCodeCamp Functional Programming]()     
+[freeCodeCamp Basic JavaScript](https://github.com/IrisvanOllefen/js-bootcamp/blob/master/exercises/exercises-day2/2.1_freeCodeCamp_BasicJS.md)                   
+[JavaScript30 Array Cardio Day 1](https://github.com/IrisvanOllefen/js-bootcamp/blob/master/exercises/exercises-day2/2.2_js30_arraycardio.html)                   
+[JavaScript30 Array Cardio Day 2](https://github.com/IrisvanOllefen/js-bootcamp/blob/master/exercises/exercises-day2/2.3_js30_arraycardio.html)                   
+[freeeCodeCamp Functional Programming](https://github.com/IrisvanOllefen/js-bootcamp/blob/master/exercises/exercises-day2/2.4_freeCodeCamp_FunctionalProgramming.md)     
 
 #### Sources for the information I've used for this story:
 [The Coding Train - Functions](https://www.youtube.com/watch?v=wRHAitGzBrg)                   
