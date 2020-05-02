@@ -28,3 +28,6 @@ FFF
 ### Basically
 YDKJS
 FED
+
+[freeCodeCamp]:(https://github.com/IrisvanOllefen/js-bootcamp/blob/master/exercises/exercises-day4/4.1_freeCodeCamp_BasicJS.md)                     
+[nodeSchool Workshopper]:(https://github.com/IrisvanOllefen/js-bootcamp/blob/master/exercises/exercises-day4/4.2_nodeSchoolWorkshopper.js)                     
