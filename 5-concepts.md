@@ -20,7 +20,7 @@ There is also a difference between local scopes. These two are called the block 
 
 #### Block Scope
 The block scope works with the keywords `let` and `const`. When you declare variables using this keyword, they will be put in the block statement. MDN mentions that a block statement allows multiple statements, even if JavaScript onlt expects one statement. This combining of statements in to blocks is seen as a common practice in JavaScript. 
-Blocks are used a lot in association with if...else and for statements. 
+Blocks are used a lot in association with `if...else` and `for` statements. 
 The most important thing to remember is that a block scope exists within curly brackets.
 
 #### Function Scope
