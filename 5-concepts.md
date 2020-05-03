@@ -81,13 +81,13 @@ function func1() {
 ```
 
 #### Exercises I've made using this information:
-[freeCodeCamp]:(https://github.com/IrisvanOllefen/js-bootcamp/blob/master/exercises/exercises-day4/4.1_freeCodeCamp_BasicJS.md)                     
-[nodeSchool Workshopper]:(https://github.com/IrisvanOllefen/js-bootcamp/blob/master/exercises/exercises-day4/4.2_nodeSchoolWorkshopper.js)             
+[freeCodeCamp](https://github.com/IrisvanOllefen/js-bootcamp/blob/master/exercises/exercises-day4/4.1_freeCodeCamp_BasicJS.md)                        
+[nodeSchool Workshopper](https://github.com/IrisvanOllefen/js-bootcamp/blob/master/exercises/exercises-day4/4.2_nodeSchoolWorkshopper.js)
 
 #### Sources for the information I've used in this story:
-[Eloquent JavaScript on Binding and Scope]:(https://eloquentjavascript.net/03_functions.html#h_XqQR5FlX+8)
-[You Don't Know JS on Global Scopes]:(https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch4.md)
-[MDN on Block Scopes]:(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/block)
-[MDN on Function Scopes]:(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function)
-[MDN on Hoisting]:(https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
-[Fun Fun Function on Closures]:(https://www.youtube.com/watch?v=CQqwU2Ixu-U)
+[Eloquent JavaScript on Binding and Scope](https://eloquentjavascript.net/03_functions.html#h_XqQR5FlX+8)                        
+[You Don't Know JS on Global Scopes](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch4.md)                        
+[MDN on Block Scopes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/block)                        
+[MDN on Function Scopes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function)                        
+[MDN on Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)                        
+[Fun Fun Function on Closures](https://www.youtube.com/watch?v=CQqwU2Ixu-U)                        
